@@ -1,0 +1,57 @@
+#	  _____       _ _ _                 _     
+#	 / ____|     (_) | |               | |  _ 
+#	| (___   __ _ _| | |__   ___   __ _| |_(_)
+#	 \___ \ / _` | | | '_ \ / _ \ / _` | __|  
+#	 ____) | (_| | | | |_) | (_) | (_| | |_ _ 
+#	|_____/ \__,_|_|_|_.__/ \___/ \__,_|\__(_)
+                                          
+# Basic Setup:
+name = "Test_PROJECT"
+short_name = "cole-wilson-test"
+email = ""
+author = "cole"
+short_description = ""
+description = ""
+url = ""
+keywords = ""
+license = "none"
+latest_build = "0.0.1+build.2"
+
+
+# Resource Setup:
+[resources]
+icon = ""
+data_files = []
+modules = []
+file = "main.py"
+no_import = []
+
+
+# Plugin Commands:
+
+
+# Build Routines:
+[build.pyinstaller]
+type = 1
+mac = true
+windows = true
+unix = true
+bundle_id = "com.cole.cole-wilson-test"
+
+[build.homebrew]
+
+[build.pypi.commands]
+hello = ""
+hello2 = ""
+
+[build.pypi.entry_points]
+
+
+# Release Routines:
+
+
+# Other:
+[git]
+
+
+# Thank you for using Sailboat!
