@@ -52,6 +52,7 @@ hello2 = ""
 
 # Other:
 [git]
+github = "cole-wilson/testing..."
 
 
 # Thank you for using Sailboat!
